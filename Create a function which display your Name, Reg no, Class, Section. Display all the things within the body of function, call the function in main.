@@ -1,0 +1,9 @@
+def my_data(reg_no,name,c,section):
+    print('name = ', name)
+    print('registration number =',reg_no)
+    print('class = ',c)
+    print('section = ',section )
+def main():
+    my_data(12,'abc',11,'A')
+if __name__ == "__main__":
+    main()

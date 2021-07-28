@@ -1,0 +1,7 @@
+def sum():
+    sum=0
+    for i in range (5):
+        num=int(input('number =' ))
+        sum=sum+num
+    print('sum = ',sum)
+sum()

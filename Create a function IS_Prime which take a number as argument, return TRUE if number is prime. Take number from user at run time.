@@ -1,0 +1,12 @@
+def Is_prime(num):
+    flag= True
+    if num>1:
+        for i in range (2,num):
+            if num%i==0 :
+                flag = True
+        if flag:
+            print("is not a prime num")
+        else:
+            print("is a prime num")
+number = int(input('enter any number '))
+Is_prime(number)
